@@ -14,7 +14,7 @@
     <form method="POST" action="recebe-form.php">
         <div class="mb-3">
             <label for="rua" class="form-label">Digite a Rua</label>
-            <input type="text" class="form-control" id="rua" name="rua">
+            <input type="text" class="form-control" id=,"rua" name="rua">
         </div>
         <div class="mb-3">
             <label for="bairro" class="form-label">Digite o Bairro</label>
