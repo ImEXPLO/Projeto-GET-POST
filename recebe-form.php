@@ -1,4 +1,16 @@
+<pre>
 <?php
+// Olhe o resultado na página e descreva aqui o que aconteceu...
+print_r($_SERVER);
+print_r($_POST);
+exit();
+// Mostrou todo o array - ou seja, as informações sobre qual tipo
+// de navegador é, o metodo de requisição (no caso foi o POST)
+// Mostra também o "URI" que seria um tipo primitivo do URL
+// Até o SO!
+?>
+</pre>
+
 // o isset() verifica se uma variável existe
 // $_GET guarda os dados quando enviado por GET
 // Dentro dos [] colocamos o NAME de um input pra obter o seu valor
@@ -30,15 +42,3 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     echo "<p style='color: red;'>Não veio nada por POST!</p>";
 }
 ?>
-
-<pre>
-    <?php 
-    // Olhe o resultado na página e descreva aqui o que aconteceu...
-    print_r($_SERVER);
-    
-    // Mostrou todo o array - ou seja, as informações sobre qual tipo
-    // de navegador é, o metodo de requisição (no caso foi o POST)
-    ?>
-
-    
-</pre>

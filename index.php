@@ -15,6 +15,8 @@
     <a href="get-form.php">Formulário com GET</a>
     <br>
     <a href="post-form.php">Formulário com POST</a>
+    <br>
+    <a href="adivinha.php">Formulário de Adivinhar</a>
 </body>
 
 </html>
