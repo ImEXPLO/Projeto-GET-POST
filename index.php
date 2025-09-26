@@ -17,6 +17,8 @@
     <a href="post-form.php">Formulário com POST</a>
     <br>
     <a href="adivinha.php">Formulário de Adivinhar</a>
+    <br>
+    <a href="calculadora.php">Calculadora</a>
 </body>
 
 </html>
