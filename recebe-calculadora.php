@@ -48,7 +48,7 @@ echo "Operação Inválida";
         <br>
 
         <div class="card" style="width: 18rem;">
-            <img src="https://media.tenor.com/1EL59Q6BWEMAAAAe/concholike2008.png" class="card-img-top" alt="...">
+            <img src="https://cdn.ahnegao.com.br/wp-content/uploads/2011/10/pericles.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Olá <?= $nome ?>. O Resultado da sua operação de <?= $tipo ?> é <?= $resultado ?></h5>
             </div>
